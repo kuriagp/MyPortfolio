@@ -7,15 +7,13 @@ color:navy;
 
 }
 
-
 .navbar{
 display:flex;
-
 justify-content:space-between;
 align-items: center;
 background:linear-gradient(to right, #d8d3cf, #05796f);
 color: navy;
-padding: 1em 2em;
+padding: 0.5em 0.5em;
 
 }
 .nav-links{
@@ -37,12 +35,7 @@ padding: 1em 2em;
     text-decoration:underline;
     
 }
-.logo{
-font-weight: 800;
-font-size: 1.33em;
-color:darkblue;
 
-}
     
     /* ============ HERO ============ */
        
@@ -64,14 +57,15 @@ color:darkblue;
         color:red;
         font-size:x-large;
         font-weight: 600;
+        align-items:center;
      
     }
      .hero-image{
-        align-items:center;
+    align-items: center;
         padding-top: 1%;
         padding-bottom: 0%;
         padding-left: 4%;
-        
+                
      }
 
     .greet{ 
@@ -102,7 +96,7 @@ color:darkblue;
 
     .button1 {
   background-color: #04AA6D;
-  border: none;
+ border: none;
   color: #f5cb47;
   padding:1em 2em;
   text-align: center;
@@ -112,6 +106,10 @@ color:darkblue;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 1em;
+  border-bottom: 1em;
+  button.circle:hover;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
 
   }
 
@@ -127,6 +125,7 @@ color:darkblue;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 1em;
+  border-bottom: 1em;
   }
 
 
@@ -134,17 +133,18 @@ color:darkblue;
 
 
    .contacts{
-
+display:flexbox;
 justify-content:space-between;
 align-items:center;
 background:linear-gradient(to right, #d8d3cf, #05796f);
 color: navy;
 padding-left:3em;
-padding-top: 2em;
-gap: 0em ;
+
 padding-right: 3em;
-padding-bottom: 3em;
-border-left:2em ;}
+
+border-left:2em;
+
+}
 
 #contactMe{
     color:red;
@@ -181,3 +181,59 @@ color:red;
 padding-left: 1em;
 font-size: 1.5em;
 }
+
+
+
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+       
+        animation: slide 1s infinite;
+
+        
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+
+      #contactsPage{
+
+display:flexbox
+
+      }
