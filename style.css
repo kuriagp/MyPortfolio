@@ -1,0 +1,183 @@
+body{
+   
+margin:0em;
+font-family:calibri;
+background-color:whitesmoke;
+color:navy;
+
+}
+
+
+.navbar{
+display:flex;
+
+justify-content:space-between;
+align-items: center;
+background:linear-gradient(to right, #d8d3cf, #05796f);
+color: navy;
+padding: 1em 2em;
+
+}
+.nav-links{
+    list-style: none;
+    display:flex ;
+    gap: 1.66em ;
+    margin: 0em ;
+    padding:0em ;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    
+}
+
+.nav-links a:hover{
+    color:orange;
+    text-decoration:underline;
+    
+}
+.logo{
+font-weight: 800;
+font-size: 1.33em;
+color:darkblue;
+
+}
+    
+    /* ============ HERO ============ */
+       
+   .hero {
+    text-align: center;
+    min-height: 100vh;
+    min-width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding-left: 8%;
+    padding-right: 0%;
+     padding-bottom:2% ;
+    background:linear-gradient(to right, #d8d3cf, #f9ca32)
+      }
+    .marquee{
+        color:red;
+        font-size:x-large;
+        font-weight: 600;
+     
+    }
+     .hero-image{
+        align-items:center;
+        padding-top: 1%;
+        padding-bottom: 0%;
+        padding-left: 4%;
+        
+     }
+
+    .greet{ 
+
+    font-size:2em;
+    font-weight: bold;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+   .hero-text{
+
+    padding-top: 0em;
+    padding-bottom:0em;
+    border-top: 0em;
+    font-size: 16px;
+    color:navy
+   }
+    #myName{
+
+    font-family:Brush Script MT;
+    font-weight:lighter;
+    font-size:2em;
+    color:red;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+     }
+
+    .button1 {
+  background-color: #04AA6D;
+  border: none;
+  color: #f5cb47;
+  padding:1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1em;
+
+  }
+
+    .button2 {
+  background-color:#0183fd;
+  border: none;
+  color: #f5cb47;
+  padding:1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1em;
+  }
+
+
+     /* ============ FOOTER ============ */
+
+
+   .contacts{
+
+justify-content:space-between;
+align-items:center;
+background:linear-gradient(to right, #d8d3cf, #05796f);
+color: navy;
+padding-left:3em;
+padding-top: 2em;
+gap: 0em ;
+padding-right: 3em;
+padding-bottom: 3em;
+border-left:2em ;}
+
+#contactMe{
+    color:red;
+  
+     padding-left: 1em;
+
+}
+
+.contactspage{
+color:red;
+size: 1em;
+padding-left: 1em;
+padding-top: 1em;
+
+}
+
+.about{
+
+    text-align: center;
+    min-height: 100vh;
+    min-width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(#ffff,#5d5d14);
+    padding-left: 8%;
+    padding-right: 8%;
+    background: linear-gradient(to right, #d8d3cf, #09ccee);
+}
+#special{
+
+color:red;
+padding-left: 1em;
+font-size: 1.5em;
+}
